@@ -1,0 +1,177 @@
+/* ========== Text Styles ========== */
+.text-white {
+    color: white;
+    text-transform: uppercase;
+    word-wrap: break-word;
+  }
+  
+  .label-sm {
+    font-size: 20px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .label-md {
+    font-size: 30px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 60px;
+  }
+  
+  .label-lg {
+    font-size: 50px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 60px;
+  }
+  
+  .header-bold {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  
+  .value-sm {
+    font-size: 70px;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 60px;
+  }
+  
+  .value-md {
+    font-size: 80px;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 60px;
+  }
+  
+  .value-lg {
+    font-size: 100px;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 140px;
+  }
+  
+  .value-xl {
+    font-size: 130px;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 140px;
+  }
+  
+  /* ========== Layout Styles ========== */
+  .dashboard {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #161616;
+    overflow: hidden;
+    border-radius: 20px;
+    outline: 15px solid black;
+    outline-offset: -15px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Panels & Metrics */
+  .metric-box {
+    width: 310px;
+    padding: 18px 70px;
+    border-radius: 10px;
+    outline: 1px solid #727272;
+    outline-offset: -1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cyclor-panel {
+    width: 404px;
+    padding: 20px 59px;
+    border-radius: 10px;
+    outline: 1px solid #727272;
+    outline-offset: -1px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: center;
+  }
+  
+  .cyclor-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 64px;
+    width: 100%;
+  }
+  
+  .bar-graph {
+    width: 194px;
+    height: 39px;
+    display: flex;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+  }
+  
+  .bar {
+    flex: 1 1 0;
+    height: 38.8px;
+  }
+  
+  .red-dark { background: #BC2203; }
+  .red { background: #D71303; }
+  .pink { background: #E9293F; }
+  .yellow { background: #DEE001; }
+  .green { background: #2AD702; }
+  
+  .cyclor-values {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1 1 0;
+  }
+  
+  .value-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* ACC section */
+  .acc-section {
+    width: 739px;
+    padding: 13px 56px;
+    border-radius: 10px;
+    outline: 1px solid #727272;
+    outline-offset: -1px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .acc-metric {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Total Watts */
+  .total-watts {
+    width: 398px;
+    padding: 13px 56px;
+    border-radius: 10px;
+    outline: 1px solid #727272;
+    outline-offset: -1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
