@@ -1,5 +1,4 @@
 import React from 'react';
-import Dashboard from './components/Dashboard';
 import { Cox } from './Cox';
 import './figma-styles.css';
 
