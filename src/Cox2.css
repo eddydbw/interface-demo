@@ -1,0 +1,317 @@
+/* Root containers */
+.cox-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .cox-main {
+    background-color: white;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .cox-panel {
+    position: absolute;
+    width: 1200px;
+    height: 890px;
+    top: 100px;
+    left: 120px;
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 15px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .cox-content {
+    position: relative;
+    width: 1128px;
+    height: 785px;
+    top: 46px;
+    left: 40px;
+  }
+  
+  .cox-slots {
+    position: absolute;
+    width: 1127px;
+    height: 785px;
+    top: 0;
+    left: 0;
+  }
+  
+  /* CYC Cards */
+  .cyc-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 406px;
+    height: 250px;
+    position: absolute;
+    border: 1px solid #717171;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  .cyc3 {
+    background-color: #fe0102;
+    top: 281px;
+    left: 28px;
+  }
+  
+  .cyc2 {
+    top: 24px;
+    left: 440px;
+  }
+  
+  .cyc4 {
+    top: 281px;
+    left: 440px;
+  }
+  
+  .cyc1 {
+    top: 24px;
+    left: 28px;
+  }
+  .cyc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 16px;
+  }
+  .cyc-label {
+    font-family: 'Arial-Italic', Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1.875rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .cyc-value {
+    font-family: 'Arial-Regular', Helvetica, sans-serif;
+    font-size: 140px;
+    font-weight: normal;
+    line-height: 140px;
+    letter-spacing: -5.6px;
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  .cyc-bar {
+    display: flex;
+    width: 371px;
+    height: 27px;
+    border: 1px solid white;
+    overflow: hidden;
+  }
+  
+  .bar {
+    height: 100%;
+    flex: 1;          
+  }
+  
+  .bar-gray1 {
+    background-color: #d0cdcd;
+  }
+  .bar-yellow1 {
+    background-color: #f5dc00;
+  }
+  .bar-red1 {
+    background-color: #bb2103;
+  }
+  
+  /* Frame and dividers */
+  .frame-white-border {
+    position: absolute;
+    width: 846px;
+    height: 541px;
+    top: 0;
+    left: 1px;
+    border-radius: 10px;
+    border: 10px solid white;
+  }
+  
+  .divider-line {
+    position: absolute;
+    top: 597px;
+    left: 564px;
+    height: 181px;
+    width: 1px;
+    object-fit: cover;
+  }
+  
+  .bottom-border {
+    position: absolute;
+    top: 587px;
+    left: 0;
+    width: 1127px;
+    height: 198px;
+    border-radius: 10px;
+    border: 10px solid #717171;
+  }
+  
+  /* Status boxes */
+  .status-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    width: 257px;
+    height: 163px;
+  }
+  
+  .status-label {
+    font-family: 'Arial-Italic', Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .status-value {
+    font-family: 'Arial-Regular', Helvetica, sans-serif;
+    font-size: 3.75rem;
+    color: white;
+    text-align: center;
+    height: 57px;
+    line-height: normal;
+    padding: 8px;
+  }
+  
+  .status-bar {
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    height: 25px;
+    padding: 2px;
+    overflow: hidden;
+    border-radius: 20px, 20px;
+  }
+  
+  
+  
+  .bar.green1 { background-color: #2ad702; border: 2px solid black; }
+  .bar.yellow1 { background-color: #dee001; border: 2px solid black; }
+  .bar.red-light1 { background-color: #e8283f; border: 2px solid black; }
+  .bar.red-dark1 { background-color: #d71303; border: 2px solid black; }
+  .bar.red1 { background-color: #bb2103; border: 2px solid black; }
+  
+  .body-battery {
+    top: 603px;
+    left: 719px;
+    width: 269px;
+    height: 112px;
+  }
+  
+  .acc-sys { top: 605px; left: 15px; }
+  .acc-rake { top: 605px; left: 286px; }
+  
+  /* Big Bar */
+  .big-bar {
+    display: flex;
+    width: 528px;
+    height: 30px;
+    padding: 2px;
+    border: 2px solid #717171;
+    border-radius: 10px;
+    position: absolute;
+    top: 740px;
+    left: 590px;
+
+  }
+  
+  .bar.dark { background-color: #151515; border: 2px solid black; }
+  .bar.white { background-color: white; border: 2px solid black; }
+  .bar-white { background-color: white; }
+  
+  /* Gear and HR */
+  .gear-box, .hr-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 238px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid #717171;
+    position: absolute;
+  }
+  
+  .gear-box {
+    top: 17px;
+    left: 910px;
+  }
+  
+  .hr-box {
+    top: 291px;
+    left: 910px;
+  }
+  
+  .gear-label, .hr-label {
+    font-family: 'Arial-Italic', Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1.875rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .gear-value {
+    font-family: 'Arial-Regular', Helvetica, sans-serif;
+    font-size: 160px;
+    color: white;
+    line-height: 140px;
+    text-align: center;
+  }
+  
+  .hr-value {
+    font-family: 'Arial-Regular', Helvetica, sans-serif;
+    font-size: 100px;
+    color: white;
+    line-height: 140px;
+    text-align: center;
+  }
+  
+  /* Traffic lights */
+  .traffic-lights {
+    display: flex;
+    gap: 53px;
+    position: absolute;
+    top: 38px;
+    left: 617px;
+  }
+  
+  .light {
+    width: 45.64px;
+    height: 45.64px;
+    border-radius: 50%;
+    border: 6px solid black;
+  }
+  
+  .light.blue { background-color: #4ab2f8; }
+  .light.yellow { background-color: #ffb200; }
+  .light.green { background-color: #19d012; }
+  
+  /* Marker Lines */
+  .marker {
+    position: absolute;
+    width: 6px;
+    height: 36px;
+  }
+  
+  .marker-1 { top: 218px; left: 289px; }
+  .marker-2 { top: 218px; left: 556px; }
+  .marker-3 { top: 475px; left: 701px; }
+  .marker-4 { top: 475px; left: 89px; }
+  
