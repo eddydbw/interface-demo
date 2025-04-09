@@ -15,7 +15,7 @@
   
   .cox-panel {
     position: relative;
-    width: 1200px;
+    width: 1500;
     height: 890px;
     top: 67px;
     left: 120px;
@@ -44,7 +44,7 @@
   .cyclor-wrapper {
     position: absolute;
     top: 17px;
-    left: 346px;
+    left: 500px;
     width: 833px;
     height: 611px;
     border: 9px solid white;
@@ -52,7 +52,7 @@
   }
   
   .cyclor-box {
-    width: 404px;
+    width: 250px;
     height: 293px;
     display: flex;
     flex-direction: column;

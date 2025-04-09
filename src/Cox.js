@@ -7,7 +7,7 @@ export const Cox = () => {
     <div className="cox-outer-wrapper">
       <div className="cox-inner-wrapper">
         <div className="cox-panel">
-          <Frame className="frame-hr" />
+          <Frame className="frame-hr" text="HR" text1="165"/>
           <Frame className="frame-gear" text="GEAR" text1="2" />
 
           <div className="cyclor-wrapper">
