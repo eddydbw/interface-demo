@@ -6,7 +6,7 @@ export const Cox2 = () => {
 
     const barData = {
         cyc1: { gray: 30, yellow: 50, red: 20 },
-        cyc2: { gray: 60, yellow: 20, red: 20 },
+        cyc2: { gray: 40, yellow: 40, red: 20 },
         cyc3: { gray: 20, yellow: 30, red: 50 },
         cyc4: { gray: 40, yellow: 30, red: 30 },
       };
