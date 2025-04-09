@@ -110,7 +110,7 @@
     width: 371px;
     height: 27px;
     border: 1px solid white;
-    overflow: hidden;
+    position: relative;
   }
   
   .bar {
@@ -126,6 +126,16 @@
   }
   .bar-red1 {
     background-color: #bb2103;
+  }
+
+  .bar-marker {
+    height: 35px;
+    position: absolute;
+    top: -4px;
+    width: 10px;
+    background-color: white;
+    transform: translateX(-50%);
+    z-index: 2;
   }
   
   /* Frame and dividers */

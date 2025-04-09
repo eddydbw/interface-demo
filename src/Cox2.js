@@ -5,14 +5,15 @@ import "./Cox2.css";
 export const Cox2 = () => {
 
     const barData = {
-        cyc1: { gray: 10, yellow: 80, red: 10 },
+        cyc1: { gray: 30, yellow: 50, red: 20 },
         cyc2: { gray: 60, yellow: 20, red: 20 },
         cyc3: { gray: 20, yellow: 30, red: 50 },
         cyc4: { gray: 40, yellow: 30, red: 30 },
       };
     
     var BB = parseInt(((barData.cyc1.gray + barData.cyc1.yellow) + (barData.cyc2.gray + barData.cyc2.yellow) + (barData.cyc3.gray + barData.cyc3.yellow) + (barData.cyc4.gray + barData.cyc4.yellow))/4)
-  return (
+  
+    return (
     <div className="cox-container">
       <div className="cox-main">
         <div className="cox-panel">
@@ -26,6 +27,7 @@ export const Cox2 = () => {
                         <div className="bar-gray1" style={{ width: `${barData.cyc1.gray}%` }} />
                         <div className="bar-yellow1" style={{ width: `${barData.cyc1.yellow}%` }} />
                         <div className="bar-red1" style={{ width: `${barData.cyc1.red}%` }} />
+                        <div className="bar-marker" style={{ left: `${barData.cyc1.gray}%` }} />
                     </div>
                     </div>
 
@@ -36,6 +38,7 @@ export const Cox2 = () => {
                         <div className="bar-gray1" style={{ width: `${barData.cyc2.gray}%` }} />
                         <div className="bar-yellow1" style={{ width: `${barData.cyc2.yellow}%` }} />
                         <div className="bar-red1" style={{ width: `${barData.cyc2.red}%` }} />
+                        <div className="bar-marker" style={{ left: `${barData.cyc2.gray}%` }} />
                     </div>
                     </div>
 
@@ -46,6 +49,7 @@ export const Cox2 = () => {
                         <div className="bar-gray1" style={{ width: `${barData.cyc3.gray}%` }} />
                         <div className="bar-yellow1" style={{ width: `${barData.cyc3.yellow}%` }} />
                         <div className="bar-red1" style={{ width: `${barData.cyc3.red}%` }} />
+                        <div className="bar-marker" style={{ left: `${barData.cyc3.gray}%` }} />
                     </div>
                     </div>
 
@@ -56,6 +60,7 @@ export const Cox2 = () => {
                         <div className="bar-gray1" style={{ width: `${barData.cyc4.gray}%` }} />
                         <div className="bar-yellow1" style={{ width: `${barData.cyc4.yellow}%` }} />
                         <div className="bar-red1" style={{ width: `${barData.cyc4.red}%` }} />
+                        <div className="bar-marker" style={{ left: `${barData.cyc4.gray}%` }} />
                     </div>
                     </div>
                 </div>
