@@ -3,12 +3,6 @@ import "./Cox2a.css";
 
 export const Cox2a = () => {
 
-  const barData = {
-    cyc1: { gray: 30, yellow: 50, red: 20 },
-    cyc2: { gray: 40, yellow: 40, red: 20 },
-    cyc3: { gray: 20, yellow: 30, red: 50 },
-    cyc4: { gray: 40, yellow: 30, red: 30 },
-  };
     const [data, setData] = useState([]);
     const [index, setIndex] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
