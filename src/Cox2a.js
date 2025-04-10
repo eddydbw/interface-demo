@@ -18,7 +18,7 @@ export const Cox2a = () => {
 
     // Load JSON on mount
     useEffect(() => {
-        fetch("/cyclor_adjusted_bars.json")
+        fetch("/cyclor_final_simulation.json")
           .then((res) => res.json())
           .then(setData);
       }, []);
@@ -74,9 +74,9 @@ export const Cox2a = () => {
           <div className="cox-content">
             <div className="cox-slots">
                 <div className="cyc-grid">
-                    <div className="cyc-card cyc1">
+                    <div className="cyc-card cyc1" style={{backgroundColor: cyclors.cyclor_1.gray < 30 ? "#8b0000" : ""}}>
                     <div className="cyc-label">CYC 1</div>
-                    <div className="cyc-value">180</div>
+                    <div className="cyc-value">{Math.floor(cyclors.cyclor_1.power)}</div>
                     <div className="cyc-bar">
                         <div className="bar-gray1" style={{ width: `${cyclors.cyclor_1.gray}%` }} />
                         <div className="bar-yellow1" style={{ width: `${cyclors.cyclor_1.yellow}%` }} />
@@ -85,9 +85,9 @@ export const Cox2a = () => {
                     </div>
                     </div>
 
-                    <div className="cyc-card cyc2">
+                    <div className="cyc-card cyc2" style={{backgroundColor: cyclors.cyclor_2.gray < 30 ? "#8b0000" : ""}}>
                     <div className="cyc-label">CYC 2</div>
-                    <div className="cyc-value">250</div>
+                    <div className="cyc-value">{Math.floor(cyclors.cyclor_2.power)}</div>
                     <div className="cyc-bar">
                         <div className="bar-gray1" style={{ width: `${cyclors.cyclor_2.gray}%` }} />
                         <div className="bar-yellow1" style={{ width: `${cyclors.cyclor_2.yellow}%` }} />
@@ -96,9 +96,9 @@ export const Cox2a = () => {
                     </div>
                     </div>
 
-                    <div className="cyc-card cyc3">
+                    <div className="cyc-card cyc3" style={{backgroundColor: cyclors.cyclor_3.gray < 30 ? "#8b0000" : ""}}>
                     <div className="cyc-label">CYC 3</div>
-                    <div className="cyc-value">350</div>
+                    <div className="cyc-value">{Math.floor(cyclors.cyclor_3.power)}</div>
                     <div className="cyc-bar">
                         <div className="bar-gray1" style={{ width: `${cyclors.cyclor_3.gray}%` }} />
                         <div className="bar-yellow1" style={{ width: `${cyclors.cyclor_3.yellow}%` }} />
@@ -107,9 +107,9 @@ export const Cox2a = () => {
                     </div>
                     </div>
 
-                    <div className="cyc-card cyc4">
+                    <div className="cyc-card cyc4" style={{backgroundColor: cyclors.cyclor_4.gray < 30 ? "#8b0000" : ""}}>
                     <div className="cyc-label">CYC 4</div>
-                    <div className="cyc-value">175</div>
+                    <div className="cyc-value">{Math.floor(cyclors.cyclor_4.power)}</div>
                     <div className="cyc-bar">
                         <div className="bar-gray1" style={{ width: `${cyclors.cyclor_4.gray}%` }} />
                         <div className="bar-yellow1" style={{ width: `${cyclors.cyclor_4.yellow}%` }} />
@@ -159,7 +159,7 @@ export const Cox2a = () => {
 
             <div className="gear-box">
               <div className="gear-label">GEAR</div>
-              <div className="gear-value">2</div>
+              <div className="gear-value">{cyclors.cyclor_1.gear}</div>
             </div>
 
             <div className="hr-box">
@@ -175,7 +175,7 @@ export const Cox2a = () => {
           <div className="light green" />
         </div>
       </div>
-      
+
       <div className="control-panel">
       <div className="control-buttons">
         <button onClick={isPlaying ? pause : play}>
