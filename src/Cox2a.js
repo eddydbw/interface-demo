@@ -1,29 +1,24 @@
 import React, { useEffect, useRef, useState } from "react";
+import "./Cox2a.css";
 
-import "./Cox2.css";
+export const Cox2a = () => {
 
-export const Cox2 = () => {
-    
-    const barData = {
-        cyc1: { gray: 30, yellow: 50, red: 20 },
-        cyc2: { gray: 40, yellow: 40, red: 20 },
-        cyc3: { gray: 20, yellow: 30, red: 50 },
-        cyc4: { gray: 40, yellow: 30, red: 30 },
-      };
-    
-    var BB = parseInt(((barData.cyc1.gray + barData.cyc1.yellow) + (barData.cyc2.gray + barData.cyc2.yellow) + (barData.cyc3.gray + barData.cyc3.yellow) + (barData.cyc4.gray + barData.cyc4.yellow))/4)
-    
-    
-    
+  const barData = {
+    cyc1: { gray: 30, yellow: 50, red: 20 },
+    cyc2: { gray: 40, yellow: 40, red: 20 },
+    cyc3: { gray: 20, yellow: 30, red: 50 },
+    cyc4: { gray: 40, yellow: 30, red: 30 },
+  };
     const [data, setData] = useState([]);
     const [index, setIndex] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
     const intervalRef = useRef(null);
+    const [speed, setSpeed] = useState(500);
 
 
     // Load JSON on mount
     useEffect(() => {
-        fetch("/body_battery_bar_data.json")
+        fetch("/cyclor_adjusted_bars.json")
           .then((res) => res.json())
           .then(setData);
       }, []);
@@ -43,7 +38,7 @@ export const Cox2 = () => {
               return prev;
             }
           });
-        }, 500); // Change to desired speed
+        }, speed); // Change to desired speed
       };
     
       const pause = () => {
@@ -64,7 +59,13 @@ export const Cox2 = () => {
     
       if (!data.length) return <div>Loading...</div>;
     
-      const { timestamp, heart_rate, gray, yellow, red } = data[index];
+      const {
+        timestamp,
+        cyclor_1_heart_rate,
+        collective_body_battery,
+        cyclors,
+      } = data[index];
+    
 
     return (
     <div className="cox-container">
@@ -77,10 +78,10 @@ export const Cox2 = () => {
                     <div className="cyc-label">CYC 1</div>
                     <div className="cyc-value">180</div>
                     <div className="cyc-bar">
-                        <div className="bar-gray1" style={{ width: `${gray}%` }} />
-                        <div className="bar-yellow1" style={{ width: `${yellow}%` }} />
-                        <div className="bar-red1" style={{ width: `${red}%` }} />
-                        <div className="bar-marker" style={{ left: `${gray}%` }} />
+                        <div className="bar-gray1" style={{ width: `${cyclors.cyclor_1.gray}%` }} />
+                        <div className="bar-yellow1" style={{ width: `${cyclors.cyclor_1.yellow}%` }} />
+                        <div className="bar-red1" style={{ width: `${cyclors.cyclor_1.red}%` }} />
+                        <div className="bar-marker" style={{ left: `${cyclors.cyclor_1.gray}%` }} />
                     </div>
                     </div>
 
@@ -88,10 +89,10 @@ export const Cox2 = () => {
                     <div className="cyc-label">CYC 2</div>
                     <div className="cyc-value">250</div>
                     <div className="cyc-bar">
-                        <div className="bar-gray1" style={{ width: `${barData.cyc2.gray}%` }} />
-                        <div className="bar-yellow1" style={{ width: `${barData.cyc2.yellow}%` }} />
-                        <div className="bar-red1" style={{ width: `${barData.cyc2.red}%` }} />
-                        <div className="bar-marker" style={{ left: `${barData.cyc2.gray}%` }} />
+                        <div className="bar-gray1" style={{ width: `${cyclors.cyclor_2.gray}%` }} />
+                        <div className="bar-yellow1" style={{ width: `${cyclors.cyclor_2.yellow}%` }} />
+                        <div className="bar-red1" style={{ width: `${cyclors.cyclor_2.red}%` }} />
+                        <div className="bar-marker" style={{ left: `${cyclors.cyclor_2.gray}%` }} />
                     </div>
                     </div>
 
@@ -99,10 +100,10 @@ export const Cox2 = () => {
                     <div className="cyc-label">CYC 3</div>
                     <div className="cyc-value">350</div>
                     <div className="cyc-bar">
-                        <div className="bar-gray1" style={{ width: `${barData.cyc3.gray}%` }} />
-                        <div className="bar-yellow1" style={{ width: `${barData.cyc3.yellow}%` }} />
-                        <div className="bar-red1" style={{ width: `${barData.cyc3.red}%` }} />
-                        <div className="bar-marker" style={{ left: `${barData.cyc3.gray}%` }} />
+                        <div className="bar-gray1" style={{ width: `${cyclors.cyclor_3.gray}%` }} />
+                        <div className="bar-yellow1" style={{ width: `${cyclors.cyclor_3.yellow}%` }} />
+                        <div className="bar-red1" style={{ width: `${cyclors.cyclor_3.red}%` }} />
+                        <div className="bar-marker" style={{ left: `${cyclors.cyclor_3.gray}%` }} />
                     </div>
                     </div>
 
@@ -110,10 +111,10 @@ export const Cox2 = () => {
                     <div className="cyc-label">CYC 4</div>
                     <div className="cyc-value">175</div>
                     <div className="cyc-bar">
-                        <div className="bar-gray1" style={{ width: `${barData.cyc4.gray}%` }} />
-                        <div className="bar-yellow1" style={{ width: `${barData.cyc4.yellow}%` }} />
-                        <div className="bar-red1" style={{ width: `${barData.cyc4.red}%` }} />
-                        <div className="bar-marker" style={{ left: `${barData.cyc4.gray}%` }} />
+                        <div className="bar-gray1" style={{ width: `${cyclors.cyclor_4.gray}%` }} />
+                        <div className="bar-yellow1" style={{ width: `${cyclors.cyclor_4.yellow}%` }} />
+                        <div className="bar-red1" style={{ width: `${cyclors.cyclor_4.red}%` }} />
+                        <div className="bar-marker" style={{ left: `${cyclors.cyclor_4.gray}%` }} />
                     </div>
                     </div>
                 </div>
@@ -149,11 +150,11 @@ export const Cox2 = () => {
 
             <div className="status-box body-battery">
               <div className="status-label">BODY BATTERY</div>
-              <div className="status-value">{BB}%</div>
+              <div className="status-value">{Math.floor(collective_body_battery)}%</div>
             </div>
 
             <div className="big-bar rotated">
-                <div className="bar-white" style={{ width: `${BB}%` }}/>
+                <div className="bar-white" style={{ width: `${collective_body_battery}%` }}/>
             </div>
 
             <div className="gear-box">
@@ -163,7 +164,7 @@ export const Cox2 = () => {
 
             <div className="hr-box">
               <div className="hr-label">HR</div>
-              <div className="hr-value">{Math.floor(heart_rate)}</div>
+              <div className="hr-value">{Math.floor(cyclor_1_heart_rate)}</div>
             </div>
           </div>
         </div>
@@ -174,6 +175,7 @@ export const Cox2 = () => {
           <div className="light green" />
         </div>
       </div>
+      
       <div className="control-panel">
       <div className="control-buttons">
         <button onClick={isPlaying ? pause : play}>
@@ -182,8 +184,21 @@ export const Cox2 = () => {
         <button onClick={restart}>🔄 Restart</button>
       </div>
       <div className="control-info">
-        ⏱️ <strong>{timestamp}s</strong> &nbsp;|&nbsp; ❤️ <strong>{Math.round(heart_rate)} bpm</strong>
+        ⏱️ <strong>{timestamp}s</strong> 
       </div>
+      <div className="control-speed">
+      <label htmlFor="speed">⏩ Speed: </label>
+      <select
+        id="speed"
+        value={speed}
+        onChange={(e) => setSpeed(Number(e.target.value))}
+      >
+        <option value={1000}>1x (Slow)</option>
+        <option value={500}>2x (Normal)</option>
+        <option value={250}>4x (Fast)</option>
+        <option value={100}>10x (Very Fast)</option>
+      </select>
+    </div>
     </div>
     </div>
   );

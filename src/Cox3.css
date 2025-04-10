@@ -1,0 +1,244 @@
+/* Root containers */
+.cox-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .cox-main {
+    background-color: white;
+    width: 1440px;
+    position: relative;
+  }
+  
+  .cox-panel {
+    width: 1200px;
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 15px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 20px auto;
+  }
+  
+  .cox-content {
+    padding: 40px;
+    position: relative;
+  }
+  
+  /* CYC Cards */
+  .cyc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .cyc-card {
+    background-color: #2e2e2e;
+    border: 1px solid #717171;
+    border-radius: 10px;
+    padding: 16px;
+    width: 406px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: white;
+    position: relative;
+  }
+  
+  .cyc-label {
+    font-family: 'Arial-Italic', Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  
+  .cyc-value {
+    font-family: 'Arial-Regular', Helvetica, sans-serif;
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: -2px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  
+  .cyc-bar {
+    display: flex;
+    width: 371px;
+    height: 27px;
+    border: 1px solid white;
+    position: relative;
+    border-radius: 5px;
+    overflow: visible;
+  }
+  
+  .bar-gray1 {
+    background-color: #d0cdcd;
+    height: 100%;
+    flex: none;
+    transition: width 0.3s ease;
+  }
+  
+  .bar-yellow1 {
+    background-color: #f5dc00;
+    height: 100%;
+    flex: none;
+    transition: width 0.3s ease;
+  }
+  
+  .bar-red1 {
+    background-color: #bb2103;
+    height: 100%;
+    flex: none;
+    transition: width 0.3s ease;
+  }
+  
+  .bar-marker {
+    height: 35px;
+    position: absolute;
+    top: -4px;
+    width: 2px;
+    background-color: white;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  /* Status and Info Boxes */
+  .status-box {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+  }
+  
+  .status-label {
+    font-size: 1.25rem;
+    font-style: italic;
+  }
+  
+  .status-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .big-bar {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border: 2px solid #717171;
+    border-radius: 10px;
+    margin-top: 16px;
+  }
+  
+  .bar-white {
+    background-color: white;
+    height: 100%;
+  }
+  
+  /* Gear and HR */
+  .gear-box, .hr-box {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    width: 238px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gear-label, .hr-label {
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+  
+  .gear-value {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  .hr-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  /* Traffic Lights */
+  .traffic-lights {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .light {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 6px solid black;
+  }
+  
+  .light.blue { background-color: #4ab2f8; }
+  .light.yellow { background-color: #ffb200; }
+  .light.green { background-color: #19d012; }
+  
+  /* Control Panel */
+  .control-panel {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 16px 24px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    font-family: "Arial", sans-serif;
+    gap: 12px;
+  }
+  
+  .control-buttons {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .control-buttons button {
+    padding: 10px 18px;
+    font-size: 16px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .control-buttons button:hover {
+    background: #357abd;
+  }
+  
+  .control-info {
+    font-size: 16px;
+    margin-top: 4px;
+  }
+  
