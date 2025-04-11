@@ -12,7 +12,7 @@ export const Cox2a = () => {
 
     // Load JSON on mount
     useEffect(() => {
-        fetch("/cyclor_final_simulation.json")
+        fetch("/cyclor_tack_segment_leg2_battery_scaled.json")
           .then((res) => res.json())
           .then(setData);
       }, []);
@@ -68,7 +68,7 @@ export const Cox2a = () => {
           <div className="cox-content">
             <div className="cox-slots">
                 <div className="cyc-grid">
-                    <div className="cyc-card cyc1" style={{backgroundColor: cyclors.cyclor_1.gray < 30 ? "#8b0000" : ""}}>
+                    <div className="cyc-card cyc1" style={{backgroundColor: cyclors.cyclor_1.gray < 7 ? "#8b0000" : ""}}>
                     <div className="cyc-label">CYC 1</div>
                     <div className="cyc-value">{Math.floor(cyclors.cyclor_1.power)}</div>
                     <div className="cyc-bar">
@@ -79,7 +79,7 @@ export const Cox2a = () => {
                     </div>
                     </div>
 
-                    <div className="cyc-card cyc2" style={{backgroundColor: cyclors.cyclor_2.gray < 30 ? "#8b0000" : ""}}>
+                    <div className="cyc-card cyc2" style={{backgroundColor: cyclors.cyclor_2.gray < 15 ? "#8b0000" : ""}}>
                     <div className="cyc-label">CYC 2</div>
                     <div className="cyc-value">{Math.floor(cyclors.cyclor_2.power)}</div>
                     <div className="cyc-bar">
@@ -90,7 +90,7 @@ export const Cox2a = () => {
                     </div>
                     </div>
 
-                    <div className="cyc-card cyc3" style={{backgroundColor: cyclors.cyclor_3.gray < 30 ? "#8b0000" : ""}}>
+                    <div className="cyc-card cyc3" style={{backgroundColor: cyclors.cyclor_3.gray < 11 ? "#8b0000" : ""}}>
                     <div className="cyc-label">CYC 3</div>
                     <div className="cyc-value">{Math.floor(cyclors.cyclor_3.power)}</div>
                     <div className="cyc-bar">
@@ -101,7 +101,7 @@ export const Cox2a = () => {
                     </div>
                     </div>
 
-                    <div className="cyc-card cyc4" style={{backgroundColor: cyclors.cyclor_4.gray < 30 ? "#8b0000" : ""}}>
+                    <div className="cyc-card cyc4" style={{backgroundColor: cyclors.cyclor_4.gray < 19 ? "#8b0000" : ""}}>
                     <div className="cyc-label">CYC 4</div>
                     <div className="cyc-value">{Math.floor(cyclors.cyclor_4.power)}</div>
                     <div className="cyc-bar">

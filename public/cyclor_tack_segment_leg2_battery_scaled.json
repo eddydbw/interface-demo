@@ -1,0 +1,2381 @@
+[
+  {
+    "timestamp": 0,
+    "cyclor_1_heart_rate": 160.9,
+    "collective_body_battery": 89.97,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 90,
+        "yellow": 0,
+        "red": 10.03,
+        "power": 304.72,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 90,
+        "yellow": 0,
+        "red": 10.03,
+        "power": 288.64,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 90,
+        "yellow": 0,
+        "red": 10.03,
+        "power": 310.96,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 90,
+        "yellow": 0,
+        "red": 10.03,
+        "power": 300.04,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 1,
+    "cyclor_1_heart_rate": 161.15,
+    "collective_body_battery": 89.9375,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.97,
+        "yellow": 0,
+        "red": 10.06,
+        "power": 286.98,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.97,
+        "yellow": 0,
+        "red": 10.06,
+        "power": 301.58,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.97,
+        "yellow": 0,
+        "red": 10.07,
+        "power": 306.45,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.97,
+        "yellow": 0,
+        "red": 10.06,
+        "power": 294.15,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 2,
+    "cyclor_1_heart_rate": 160.75,
+    "collective_body_battery": 89.905,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.94,
+        "yellow": 0,
+        "red": 10.1,
+        "power": 313.19,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.94,
+        "yellow": 0,
+        "red": 10.09,
+        "power": 299.42,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.93,
+        "yellow": 0,
+        "red": 10.1,
+        "power": 309.56,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.94,
+        "yellow": 0,
+        "red": 10.09,
+        "power": 313.32,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 3,
+    "cyclor_1_heart_rate": 161.23,
+    "collective_body_battery": 89.875,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.9,
+        "yellow": 0,
+        "red": 10.13,
+        "power": 289.4,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.91,
+        "yellow": 0,
+        "red": 10.12,
+        "power": 332.92,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.9,
+        "yellow": 0,
+        "red": 10.13,
+        "power": 318.85,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.91,
+        "yellow": 0,
+        "red": 10.12,
+        "power": 309.12,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 4,
+    "cyclor_1_heart_rate": 160.98,
+    "collective_body_battery": 89.84,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.87,
+        "yellow": 0,
+        "red": 10.17,
+        "power": 321.34,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.88,
+        "yellow": 0,
+        "red": 10.15,
+        "power": 315.39,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.87,
+        "yellow": 0,
+        "red": 10.17,
+        "power": 310.5,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.88,
+        "yellow": 0,
+        "red": 10.15,
+        "power": 298.43,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 5,
+    "cyclor_1_heart_rate": 160.81,
+    "collective_body_battery": 89.81,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.83,
+        "yellow": 0,
+        "red": 10.2,
+        "power": 301.22,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.85,
+        "yellow": 0,
+        "red": 10.18,
+        "power": 321.75,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.83,
+        "yellow": 0,
+        "red": 10.2,
+        "power": 294.54,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.85,
+        "yellow": 0,
+        "red": 10.18,
+        "power": 325.47,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 6,
+    "cyclor_1_heart_rate": 160.94,
+    "collective_body_battery": 89.7825,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.8,
+        "yellow": 0,
+        "red": 10.23,
+        "power": 298.99,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.82,
+        "yellow": 0,
+        "red": 10.2,
+        "power": 301.22,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.8,
+        "yellow": 0,
+        "red": 10.23,
+        "power": 298.15,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.82,
+        "yellow": 0,
+        "red": 10.21,
+        "power": 300.17,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 7,
+    "cyclor_1_heart_rate": 161.2,
+    "collective_body_battery": 89.7525,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.77,
+        "yellow": 0,
+        "red": 10.26,
+        "power": 315.02,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.8,
+        "yellow": 0,
+        "red": 10.23,
+        "power": 300.11,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.77,
+        "yellow": 0,
+        "red": 10.26,
+        "power": 312.37,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.79,
+        "yellow": 0,
+        "red": 10.24,
+        "power": 297.91,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 8,
+    "cyclor_1_heart_rate": 160.83,
+    "collective_body_battery": 89.715,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.74,
+        "yellow": 0,
+        "red": 10.3,
+        "power": 308.77,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.77,
+        "yellow": 0,
+        "red": 10.26,
+        "power": 303.62,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.74,
+        "yellow": 0,
+        "red": 10.3,
+        "power": 316.25,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.76,
+        "yellow": 0,
+        "red": 10.28,
+        "power": 326.92,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 9,
+    "cyclor_1_heart_rate": 160.62,
+    "collective_body_battery": 89.685,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.7,
+        "yellow": 0,
+        "red": 10.33,
+        "power": 315.3,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.74,
+        "yellow": 0,
+        "red": 10.29,
+        "power": 308.47,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.7,
+        "yellow": 0,
+        "red": 10.33,
+        "power": 307.7,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.72,
+        "yellow": 0,
+        "red": 10.31,
+        "power": 296.39,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 10,
+    "cyclor_1_heart_rate": 160.36,
+    "collective_body_battery": 89.6575,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.67,
+        "yellow": 0,
+        "red": 10.36,
+        "power": 303.13,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.71,
+        "yellow": 0,
+        "red": 10.31,
+        "power": 285.65,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.67,
+        "yellow": 0,
+        "red": 10.36,
+        "power": 297.56,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.69,
+        "yellow": 0,
+        "red": 10.34,
+        "power": 310.48,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 11,
+    "cyclor_1_heart_rate": 159.99,
+    "collective_body_battery": 89.625,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.64,
+        "yellow": 0,
+        "red": 10.4,
+        "power": 309.87,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.69,
+        "yellow": 0,
+        "red": 10.34,
+        "power": 323.6,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.64,
+        "yellow": 0,
+        "red": 10.39,
+        "power": 285.81,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.66,
+        "yellow": 0,
+        "red": 10.37,
+        "power": 318.38,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 12,
+    "cyclor_1_heart_rate": 159.98,
+    "collective_body_battery": 89.5925,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.6,
+        "yellow": 0,
+        "red": 10.43,
+        "power": 326.6,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.66,
+        "yellow": 0,
+        "red": 10.37,
+        "power": 310.0,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.61,
+        "yellow": 0,
+        "red": 10.43,
+        "power": 321.24,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.63,
+        "yellow": 0,
+        "red": 10.4,
+        "power": 307.24,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 13,
+    "cyclor_1_heart_rate": 159.8,
+    "collective_body_battery": 89.5625,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.57,
+        "yellow": 0,
+        "red": 10.46,
+        "power": 301.12,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.63,
+        "yellow": 0,
+        "red": 10.4,
+        "power": 317.71,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.57,
+        "yellow": 0,
+        "red": 10.46,
+        "power": 316.47,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.6,
+        "yellow": 0,
+        "red": 10.43,
+        "power": 315.1,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 14,
+    "cyclor_1_heart_rate": 160.38,
+    "collective_body_battery": 89.5275,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.54,
+        "yellow": 0,
+        "red": 10.5,
+        "power": 310.51,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.6,
+        "yellow": 0,
+        "red": 10.43,
+        "power": 324.68,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.54,
+        "yellow": 0,
+        "red": 10.49,
+        "power": 304.03,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.57,
+        "yellow": 0,
+        "red": 10.47,
+        "power": 308.69,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 15,
+    "cyclor_1_heart_rate": 160.36,
+    "collective_body_battery": 89.4975,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.5,
+        "yellow": 0,
+        "red": 10.53,
+        "power": 331.0,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.57,
+        "yellow": 0,
+        "red": 10.46,
+        "power": 310.48,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.51,
+        "yellow": 0,
+        "red": 10.52,
+        "power": 310.3,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.53,
+        "yellow": 0,
+        "red": 10.5,
+        "power": 322.02,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 16,
+    "cyclor_1_heart_rate": 160.51,
+    "collective_body_battery": 89.465,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.47,
+        "yellow": 0,
+        "red": 10.57,
+        "power": 313.0,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.54,
+        "yellow": 0,
+        "red": 10.49,
+        "power": 320.0,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.48,
+        "yellow": 0,
+        "red": 10.55,
+        "power": 320.13,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.5,
+        "yellow": 0,
+        "red": 10.53,
+        "power": 317.87,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 17,
+    "cyclor_1_heart_rate": 159.95,
+    "collective_body_battery": 89.43249999999999,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.43,
+        "yellow": 0,
+        "red": 10.6,
+        "power": 306.51,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.51,
+        "yellow": 0,
+        "red": 10.52,
+        "power": 309.26,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.45,
+        "yellow": 0,
+        "red": 10.59,
+        "power": 321.19,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.47,
+        "yellow": 0,
+        "red": 10.56,
+        "power": 310.36,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 18,
+    "cyclor_1_heart_rate": 160.08,
+    "collective_body_battery": 89.4025,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.4,
+        "yellow": 0,
+        "red": 10.63,
+        "power": 318.39,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.48,
+        "yellow": 0,
+        "red": 10.55,
+        "power": 303.65,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.41,
+        "yellow": 0,
+        "red": 10.62,
+        "power": 318.46,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.44,
+        "yellow": 0,
+        "red": 10.59,
+        "power": 295.44,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 19,
+    "cyclor_1_heart_rate": 160.09,
+    "collective_body_battery": 89.3725,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.37,
+        "yellow": 0,
+        "red": 10.67,
+        "power": 318.85,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.45,
+        "yellow": 0,
+        "red": 10.57,
+        "power": 291.41,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.38,
+        "yellow": 0,
+        "red": 10.65,
+        "power": 290.86,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.41,
+        "yellow": 0,
+        "red": 10.62,
+        "power": 313.0,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 20,
+    "cyclor_1_heart_rate": 160.49,
+    "collective_body_battery": 89.3425,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.33,
+        "yellow": 0,
+        "red": 10.7,
+        "power": 315.13,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.43,
+        "yellow": 0,
+        "red": 10.6,
+        "power": 309.6,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.35,
+        "yellow": 0,
+        "red": 10.68,
+        "power": 308.03,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.38,
+        "yellow": 0,
+        "red": 10.65,
+        "power": 310.67,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 21,
+    "cyclor_1_heart_rate": 160.59,
+    "collective_body_battery": 89.3125,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.3,
+        "yellow": 0,
+        "red": 10.73,
+        "power": 309.24,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.4,
+        "yellow": 0,
+        "red": 10.63,
+        "power": 310.46,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.32,
+        "yellow": 0,
+        "red": 10.71,
+        "power": 311.51,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.35,
+        "yellow": 0,
+        "red": 10.68,
+        "power": 300.38,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 22,
+    "cyclor_1_heart_rate": 161.1,
+    "collective_body_battery": 89.28,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.27,
+        "yellow": 0,
+        "red": 10.77,
+        "power": 331.86,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.37,
+        "yellow": 0,
+        "red": 10.66,
+        "power": 315.24,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.29,
+        "yellow": 0,
+        "red": 10.74,
+        "power": 314.38,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.32,
+        "yellow": 0,
+        "red": 10.71,
+        "power": 311.58,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 23,
+    "cyclor_1_heart_rate": 160.42,
+    "collective_body_battery": 89.2475,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.23,
+        "yellow": 0,
+        "red": 10.8,
+        "power": 304.96,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.34,
+        "yellow": 0,
+        "red": 10.69,
+        "power": 318.42,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.26,
+        "yellow": 0,
+        "red": 10.77,
+        "power": 318.99,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.29,
+        "yellow": 0,
+        "red": 10.75,
+        "power": 312.43,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 24,
+    "cyclor_1_heart_rate": 160.67,
+    "collective_body_battery": 89.2175,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.2,
+        "yellow": 0,
+        "red": 10.84,
+        "power": 313.16,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.31,
+        "yellow": 0,
+        "red": 10.71,
+        "power": 299.01,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.23,
+        "yellow": 0,
+        "red": 10.8,
+        "power": 314.84,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.25,
+        "yellow": 0,
+        "red": 10.78,
+        "power": 317.95,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 25,
+    "cyclor_1_heart_rate": 160.45,
+    "collective_body_battery": 89.1875,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.16,
+        "yellow": 0,
+        "red": 10.87,
+        "power": 318.28,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.29,
+        "yellow": 0,
+        "red": 10.74,
+        "power": 309.09,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.2,
+        "yellow": 0,
+        "red": 10.83,
+        "power": 312.49,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.22,
+        "yellow": 0,
+        "red": 10.81,
+        "power": 314.3,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 26,
+    "cyclor_1_heart_rate": 160.65,
+    "collective_body_battery": 89.16,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.13,
+        "yellow": 0,
+        "red": 10.9,
+        "power": 307.78,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.26,
+        "yellow": 0,
+        "red": 10.76,
+        "power": 308.11,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.17,
+        "yellow": 0,
+        "red": 10.86,
+        "power": 296.29,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.19,
+        "yellow": 0,
+        "red": 10.84,
+        "power": 299.03,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 27,
+    "cyclor_1_heart_rate": 160.62,
+    "collective_body_battery": 89.1275,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.1,
+        "yellow": 0,
+        "red": 10.94,
+        "power": 314.1,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.24,
+        "yellow": 0,
+        "red": 10.79,
+        "power": 322.48,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.14,
+        "yellow": 0,
+        "red": 10.89,
+        "power": 301.62,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.16,
+        "yellow": 0,
+        "red": 10.87,
+        "power": 303.92,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 28,
+    "cyclor_1_heart_rate": 160.57,
+    "collective_body_battery": 89.0975,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.06,
+        "yellow": 0,
+        "red": 10.97,
+        "power": 303.29,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.21,
+        "yellow": 0,
+        "red": 10.82,
+        "power": 323.67,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.11,
+        "yellow": 0,
+        "red": 10.92,
+        "power": 309.76,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.13,
+        "yellow": 0,
+        "red": 10.9,
+        "power": 304.35,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 29,
+    "cyclor_1_heart_rate": 160.52,
+    "collective_body_battery": 89.0675,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 89.03,
+        "yellow": 0,
+        "red": 11.01,
+        "power": 321.29,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 89.18,
+        "yellow": 0,
+        "red": 10.84,
+        "power": 313.51,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 89.08,
+        "yellow": 0,
+        "red": 10.95,
+        "power": 300.28,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 89.1,
+        "yellow": 0,
+        "red": 10.93,
+        "power": 308.25,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 30,
+    "cyclor_1_heart_rate": 161.43,
+    "collective_body_battery": 89.0225,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 85.32,
+        "yellow": 3.63,
+        "red": 11.05,
+        "power": 394.37,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 85.48,
+        "yellow": 3.63,
+        "red": 10.89,
+        "power": 403.06,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 85.55,
+        "yellow": 3.46,
+        "red": 10.99,
+        "power": 385.6,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 85.39,
+        "yellow": 3.63,
+        "red": 10.98,
+        "power": 403.14,
+        "gear": 4,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 31,
+    "cyclor_1_heart_rate": 162.48,
+    "collective_body_battery": 88.97500000000001,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 81.48,
+        "yellow": 7.42,
+        "red": 11.1,
+        "power": 401.16,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 81.66,
+        "yellow": 7.4,
+        "red": 10.94,
+        "power": 415.61,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 81.87,
+        "yellow": 7.09,
+        "red": 11.04,
+        "power": 398.36,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 81.54,
+        "yellow": 7.44,
+        "red": 11.02,
+        "power": 407.85,
+        "gear": 4,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 32,
+    "cyclor_1_heart_rate": 163.31,
+    "collective_body_battery": 88.9325,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 77.66,
+        "yellow": 11.2,
+        "red": 11.14,
+        "power": 390.7,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 77.78,
+        "yellow": 11.24,
+        "red": 10.98,
+        "power": 417.6,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 78.17,
+        "yellow": 10.75,
+        "red": 11.08,
+        "power": 395.5,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 77.82,
+        "yellow": 11.11,
+        "red": 11.07,
+        "power": 385.83,
+        "gear": 4,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 33,
+    "cyclor_1_heart_rate": 163.84,
+    "collective_body_battery": 88.8825,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 73.55,
+        "yellow": 15.26,
+        "red": 11.19,
+        "power": 418.37,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 73.9,
+        "yellow": 15.07,
+        "red": 11.03,
+        "power": 405.79,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 74.52,
+        "yellow": 14.35,
+        "red": 11.13,
+        "power": 380.6,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 73.8,
+        "yellow": 15.08,
+        "red": 11.12,
+        "power": 409.76,
+        "gear": 4,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 34,
+    "cyclor_1_heart_rate": 165.0,
+    "collective_body_battery": 88.8325,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 69.66,
+        "yellow": 19.1,
+        "red": 11.24,
+        "power": 383.58,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 70.01,
+        "yellow": 18.91,
+        "red": 11.08,
+        "power": 395.44,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 70.43,
+        "yellow": 18.39,
+        "red": 11.18,
+        "power": 418.5,
+        "gear": 4,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 69.59,
+        "yellow": 19.24,
+        "red": 11.17,
+        "power": 423.68,
+        "gear": 4,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 35,
+    "cyclor_1_heart_rate": 175.0,
+    "collective_body_battery": 88.7525,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 63.07,
+        "yellow": 25.61,
+        "red": 11.32,
+        "power": 616.16,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 63.41,
+        "yellow": 25.43,
+        "red": 11.16,
+        "power": 651.02,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 63.82,
+        "yellow": 24.92,
+        "red": 11.26,
+        "power": 621.74,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 62.97,
+        "yellow": 25.78,
+        "red": 11.25,
+        "power": 631.6,
+        "gear": 7,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 36,
+    "cyclor_1_heart_rate": 176.45,
+    "collective_body_battery": 88.67,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 56.37,
+        "yellow": 32.22,
+        "red": 11.41,
+        "power": 605.67,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 56.76,
+        "yellow": 32.0,
+        "red": 11.24,
+        "power": 631.87,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 57.07,
+        "yellow": 31.59,
+        "red": 11.34,
+        "power": 627.08,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 56.27,
+        "yellow": 32.4,
+        "red": 11.33,
+        "power": 690.8,
+        "gear": 7,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 37,
+    "cyclor_1_heart_rate": 179.12,
+    "collective_body_battery": 88.5825,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 49.46,
+        "yellow": 39.05,
+        "red": 11.49,
+        "power": 618.51,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 50.11,
+        "yellow": 38.56,
+        "red": 11.33,
+        "power": 625.23,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 50.26,
+        "yellow": 38.31,
+        "red": 11.43,
+        "power": 658.12,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 49.65,
+        "yellow": 38.93,
+        "red": 11.42,
+        "power": 629.15,
+        "gear": 7,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 38,
+    "cyclor_1_heart_rate": 178.55,
+    "collective_body_battery": 88.5,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 42.6,
+        "yellow": 45.82,
+        "red": 11.58,
+        "power": 639.03,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 43.42,
+        "yellow": 45.17,
+        "red": 11.41,
+        "power": 622.54,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 43.29,
+        "yellow": 45.2,
+        "red": 11.51,
+        "power": 661.29,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 42.83,
+        "yellow": 45.67,
+        "red": 11.5,
+        "power": 674.36,
+        "gear": 7,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 39,
+    "cyclor_1_heart_rate": 181.63,
+    "collective_body_battery": 88.4125,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 35.51,
+        "yellow": 52.83,
+        "red": 11.66,
+        "power": 650.22,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 36.34,
+        "yellow": 52.16,
+        "red": 11.5,
+        "power": 603.17,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 36.3,
+        "yellow": 52.1,
+        "red": 11.6,
+        "power": 673.62,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 35.83,
+        "yellow": 52.58,
+        "red": 11.59,
+        "power": 634.75,
+        "gear": 7,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 40,
+    "cyclor_1_heart_rate": 181.87,
+    "collective_body_battery": 88.3225,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 28.4,
+        "yellow": 59.85,
+        "red": 11.75,
+        "power": 671.84,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 29.1,
+        "yellow": 59.31,
+        "red": 11.59,
+        "power": 631.91,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 29.17,
+        "yellow": 59.14,
+        "red": 11.69,
+        "power": 621.17,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 28.53,
+        "yellow": 59.79,
+        "red": 11.68,
+        "power": 631.26,
+        "gear": 7,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 41,
+    "cyclor_1_heart_rate": 180.48,
+    "collective_body_battery": 88.2325,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 21.37,
+        "yellow": 66.79,
+        "red": 11.84,
+        "power": 670.9,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 21.65,
+        "yellow": 66.67,
+        "red": 11.68,
+        "power": 671.57,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 21.9,
+        "yellow": 66.32,
+        "red": 11.78,
+        "power": 647.18,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 21.04,
+        "yellow": 67.19,
+        "red": 11.77,
+        "power": 652.91,
+        "gear": 7,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 42,
+    "cyclor_1_heart_rate": 182.39,
+    "collective_body_battery": 88.14,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 14.2,
+        "yellow": 73.87,
+        "red": 11.93,
+        "power": 610.02,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 14.23,
+        "yellow": 74.0,
+        "red": 11.77,
+        "power": 667.73,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 14.5,
+        "yellow": 73.63,
+        "red": 11.87,
+        "power": 623.79,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 13.34,
+        "yellow": 74.79,
+        "red": 11.87,
+        "power": 622.97,
+        "gear": 7,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 43,
+    "cyclor_1_heart_rate": 183.52,
+    "collective_body_battery": 88.05000000000001,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 7,
+        "yellow": 80.98,
+        "red": 12.02,
+        "power": 624.9,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 7,
+        "yellow": 81.14,
+        "red": 11.86,
+        "power": 627.55,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 7.01,
+        "yellow": 81.03,
+        "red": 11.96,
+        "power": 687.73,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 7,
+        "yellow": 81.04,
+        "red": 11.96,
+        "power": 629.78,
+        "gear": 7,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 44,
+    "cyclor_1_heart_rate": 185.75,
+    "collective_body_battery": 87.955,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 7,
+        "yellow": 80.89,
+        "red": 12.11,
+        "power": 659.82,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 7,
+        "yellow": 81.04,
+        "red": 11.96,
+        "power": 635.42,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 7,
+        "yellow": 80.95,
+        "red": 12.05,
+        "power": 653.97,
+        "gear": 7,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 7,
+        "yellow": 80.94,
+        "red": 12.06,
+        "power": 668.21,
+        "gear": 7,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 45,
+    "cyclor_1_heart_rate": 170.0,
+    "collective_body_battery": 87.9125,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 8.8,
+        "yellow": 79.05,
+        "red": 12.15,
+        "power": 262.83,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 8.8,
+        "yellow": 79.2,
+        "red": 12.0,
+        "power": 292.69,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 8.8,
+        "yellow": 79.1,
+        "red": 12.1,
+        "power": 292.89,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 8.8,
+        "yellow": 79.1,
+        "red": 12.1,
+        "power": 292.76,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 46,
+    "cyclor_1_heart_rate": 169.72,
+    "collective_body_battery": 87.8725,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 10.6,
+        "yellow": 77.21,
+        "red": 12.19,
+        "power": 277.2,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 10.6,
+        "yellow": 77.36,
+        "red": 12.04,
+        "power": 258.72,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 10.6,
+        "yellow": 77.26,
+        "red": 12.14,
+        "power": 266.4,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 10.6,
+        "yellow": 77.26,
+        "red": 12.14,
+        "power": 267.21,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 47,
+    "cyclor_1_heart_rate": 169.77,
+    "collective_body_battery": 87.8325,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 12.4,
+        "yellow": 75.37,
+        "red": 12.23,
+        "power": 291.26,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 12.4,
+        "yellow": 75.52,
+        "red": 12.08,
+        "power": 248.76,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 12.4,
+        "yellow": 75.42,
+        "red": 12.18,
+        "power": 298.62,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 12.4,
+        "yellow": 75.42,
+        "red": 12.18,
+        "power": 266.64,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 48,
+    "cyclor_1_heart_rate": 169.53,
+    "collective_body_battery": 87.79249999999999,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 14.2,
+        "yellow": 73.53,
+        "red": 12.27,
+        "power": 281.17,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 14.2,
+        "yellow": 73.68,
+        "red": 12.12,
+        "power": 306.89,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 14.2,
+        "yellow": 73.58,
+        "red": 12.22,
+        "power": 286.39,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 14.2,
+        "yellow": 73.58,
+        "red": 12.22,
+        "power": 278.8,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 49,
+    "cyclor_1_heart_rate": 169.32,
+    "collective_body_battery": 87.7525,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 16.0,
+        "yellow": 71.69,
+        "red": 12.31,
+        "power": 290.24,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 16.0,
+        "yellow": 71.84,
+        "red": 12.16,
+        "power": 290.46,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 16.0,
+        "yellow": 71.74,
+        "red": 12.26,
+        "power": 287.38,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 16.0,
+        "yellow": 71.74,
+        "red": 12.26,
+        "power": 303.34,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 50,
+    "cyclor_1_heart_rate": 168.05,
+    "collective_body_battery": 87.71249999999999,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 17.8,
+        "yellow": 69.85,
+        "red": 12.35,
+        "power": 295.58,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 17.8,
+        "yellow": 70.0,
+        "red": 12.2,
+        "power": 276.58,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 17.8,
+        "yellow": 69.9,
+        "red": 12.3,
+        "power": 261.69,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 17.8,
+        "yellow": 69.9,
+        "red": 12.3,
+        "power": 272.37,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 51,
+    "cyclor_1_heart_rate": 167.93,
+    "collective_body_battery": 87.67249999999999,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 18.6,
+        "yellow": 69.01,
+        "red": 12.39,
+        "power": 278.5,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 18.6,
+        "yellow": 69.16,
+        "red": 12.24,
+        "power": 286.35,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 18.6,
+        "yellow": 69.06,
+        "red": 12.34,
+        "power": 286.37,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 18.6,
+        "yellow": 69.06,
+        "red": 12.34,
+        "power": 271.1,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 52,
+    "cyclor_1_heart_rate": 167.58,
+    "collective_body_battery": 87.63499999999999,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 19.4,
+        "yellow": 68.17,
+        "red": 12.43,
+        "power": 280.26,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 19.4,
+        "yellow": 68.32,
+        "red": 12.28,
+        "power": 306.13,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 19.4,
+        "yellow": 68.23,
+        "red": 12.37,
+        "power": 277.89,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 19.4,
+        "yellow": 68.22,
+        "red": 12.38,
+        "power": 277.43,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 53,
+    "cyclor_1_heart_rate": 167.07,
+    "collective_body_battery": 87.5975,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 20.2,
+        "yellow": 67.33,
+        "red": 12.47,
+        "power": 265.04,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 20.2,
+        "yellow": 67.48,
+        "red": 12.32,
+        "power": 294.07,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 20.2,
+        "yellow": 67.39,
+        "red": 12.41,
+        "power": 281.09,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 20.2,
+        "yellow": 67.39,
+        "red": 12.41,
+        "power": 293.43,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 54,
+    "cyclor_1_heart_rate": 166.65,
+    "collective_body_battery": 87.5575,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 21.0,
+        "yellow": 66.49,
+        "red": 12.51,
+        "power": 287.43,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 21.0,
+        "yellow": 66.64,
+        "red": 12.36,
+        "power": 281.87,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 21.0,
+        "yellow": 66.55,
+        "red": 12.45,
+        "power": 320.14,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 21.0,
+        "yellow": 66.55,
+        "red": 12.45,
+        "power": 278.21,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 55,
+    "cyclor_1_heart_rate": 166.74,
+    "collective_body_battery": 87.5175,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 21.8,
+        "yellow": 65.65,
+        "red": 12.55,
+        "power": 283.2,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 21.8,
+        "yellow": 65.8,
+        "red": 12.4,
+        "power": 287.46,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 21.8,
+        "yellow": 65.71,
+        "red": 12.49,
+        "power": 301.13,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 21.8,
+        "yellow": 65.71,
+        "red": 12.49,
+        "power": 257.28,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 56,
+    "cyclor_1_heart_rate": 165.68,
+    "collective_body_battery": 87.47999999999999,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 22.6,
+        "yellow": 64.81,
+        "red": 12.59,
+        "power": 270.3,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 22.6,
+        "yellow": 64.97,
+        "red": 12.43,
+        "power": 302.98,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 22.6,
+        "yellow": 64.87,
+        "red": 12.53,
+        "power": 292.94,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 22.6,
+        "yellow": 64.87,
+        "red": 12.53,
+        "power": 277.82,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 57,
+    "cyclor_1_heart_rate": 166.39,
+    "collective_body_battery": 87.44250000000001,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 23.4,
+        "yellow": 63.98,
+        "red": 12.62,
+        "power": 276.27,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 23.4,
+        "yellow": 64.13,
+        "red": 12.47,
+        "power": 291.61,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 23.4,
+        "yellow": 64.03,
+        "red": 12.57,
+        "power": 271.9,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 23.4,
+        "yellow": 64.03,
+        "red": 12.57,
+        "power": 296.16,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 58,
+    "cyclor_1_heart_rate": 166.0,
+    "collective_body_battery": 87.405,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 24.2,
+        "yellow": 63.14,
+        "red": 12.66,
+        "power": 299.97,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 24.2,
+        "yellow": 63.29,
+        "red": 12.51,
+        "power": 285.95,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 24.2,
+        "yellow": 63.2,
+        "red": 12.6,
+        "power": 261.47,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 24.2,
+        "yellow": 63.19,
+        "red": 12.61,
+        "power": 311.74,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 59,
+    "cyclor_1_heart_rate": 165.97,
+    "collective_body_battery": 87.36500000000001,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 25.0,
+        "yellow": 62.3,
+        "red": 12.7,
+        "power": 275.2,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 25.0,
+        "yellow": 62.45,
+        "red": 12.55,
+        "power": 297.24,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 25.0,
+        "yellow": 62.36,
+        "red": 12.64,
+        "power": 289.48,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 25.0,
+        "yellow": 62.35,
+        "red": 12.65,
+        "power": 260.77,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  },
+  {
+    "timestamp": 60,
+    "cyclor_1_heart_rate": 165.8,
+    "collective_body_battery": 87.325,
+    "cyclors": {
+      "cyclor_1": {
+        "gray": 25.8,
+        "yellow": 61.46,
+        "red": 12.74,
+        "power": 287.55,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_2": {
+        "gray": 25.8,
+        "yellow": 61.61,
+        "red": 12.59,
+        "power": 273.19,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_3": {
+        "gray": 25.8,
+        "yellow": 61.52,
+        "red": 12.68,
+        "power": 272.33,
+        "gear": 2,
+        "resting": false
+      },
+      "cyclor_4": {
+        "gray": 25.8,
+        "yellow": 61.51,
+        "red": 12.69,
+        "power": 270.49,
+        "gear": 2,
+        "resting": false
+      }
+    }
+  }
+]
